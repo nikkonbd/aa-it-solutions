@@ -3,7 +3,7 @@
 import AddCard from "../components/Card";
 import Categories from "../components/Categories";
 import HomeHero from "../components/Hero";
-import Team from "../components/Team";
+import OurTeam from "../components/OutTeam/OurTeam";
 
 const Home = () => {
     return (
@@ -11,7 +11,7 @@ const Home = () => {
             <HomeHero></HomeHero>
             <Categories></Categories>
             <AddCard></AddCard>
-            <Team></Team>
+            <OurTeam></OurTeam>
         </div>
     );
 };
