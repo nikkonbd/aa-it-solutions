@@ -17,7 +17,7 @@ const Categories = () => {
           Our Category Section
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:pb-24  md:grid-cols-4 gap-4 md:max-w-6xl lg:max-w-7xl mx-auto py-10">
+      <div className="grid grid-cols-1 px-4 md:px-0 sm:grid-cols-2 md:pb-24  md:grid-cols-4 gap-4 md:max-w-6xl lg:max-w-7xl mx-auto py-10">
         <div className="">
           <img className="w-full shadow-md transition duration-300 ease-in-out hover:scale-90" src={image1} alt="" />
           <h2 className="text-2xl font-bold text-center pt-2">Design</h2>
