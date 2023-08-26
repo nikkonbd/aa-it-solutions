@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 }
 
 module.exports = withMT({
@@ -17,5 +17,5 @@ module.exports = withMT({
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 });
