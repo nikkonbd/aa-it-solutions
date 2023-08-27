@@ -102,7 +102,7 @@ const Footer = () => {
                 Join our subscribers list to get the latest news and special
                 offers.
               </p>
-              <div className="form-control w-80">
+              <div className="form-control">
                 <label className="label">
                   <span className="label-text text-base-100">Enter your email address</span>
                 </label>
