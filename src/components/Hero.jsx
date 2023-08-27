@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from "../assets/SEO.png"
 import { Button } from '@material-tailwind/react';
+import { Link } from 'react-router-dom';
 
 const HomeHero = () => {
     return (
@@ -13,7 +14,7 @@ const HomeHero = () => {
               size="md"
               className="hidden mt-6 lg:inline-block"
             >
-              <span>Contact Now</span>
+              <span><Link to={"/contact"}>Contact Now</Link></span>
             </Button>
             </div>
             <div>

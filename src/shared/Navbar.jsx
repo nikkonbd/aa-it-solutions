@@ -7,6 +7,7 @@ import {
     IconButton,
     Card,
   } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 
 const StickyNavbar = () => {
 
@@ -27,8 +28,8 @@ const StickyNavbar = () => {
         color="blue-gray"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center">
-          Home
+        <a href="#" className="flex items-center hover:text-[#0dcaf0]">
+          <Link to={"/"}>Home</Link>
         </a>
       </Typography>
       <Typography
@@ -37,7 +38,7 @@ const StickyNavbar = () => {
         color="blue-gray"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-[#0dcaf0]">
           Pages
         </a>
       </Typography>
@@ -47,8 +48,8 @@ const StickyNavbar = () => {
         color="blue-gray"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center hover:text-[#73d8ba]">
-          Account
+        <a href="#" className="flex items-center hover:text-[#0dcaf0]">
+          <Link to={"/admission"}>Admission</Link>
         </a>
       </Typography>
       <Typography
@@ -57,7 +58,7 @@ const StickyNavbar = () => {
         color="blue-gray"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-[#0dcaf0]">
           Blocks
         </a>
       </Typography>
@@ -67,7 +68,7 @@ const StickyNavbar = () => {
         color="blue-gray"
         className="p-1 font-semibold"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-[#0dcaf0]">
           Docs
         </a>
       </Typography>
@@ -83,7 +84,7 @@ const StickyNavbar = () => {
             href="#"
             className="mr-4 text-xl md:text-2xl font-bold cursor-pointer py-1.5"
           >
-            AA IT SOLUTIONS
+            <Link to={"/"}>AA IT SOLUTIONS</Link>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -92,7 +93,7 @@ const StickyNavbar = () => {
               size="md"
               className="hidden lg:inline-block"
             >
-              <span>Contact Now</span>
+              <span><Link to={"/contact"}>Contact Now</Link></span>
             </Button>
             <IconButton
               variant="text"
@@ -136,7 +137,7 @@ const StickyNavbar = () => {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Contact Now</span>
+            <span><Link to={"/contact"}>Contact Now</Link></span>
           </Button>
         </MobileNav>
       </Navbar>

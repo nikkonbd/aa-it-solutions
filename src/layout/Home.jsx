@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className="bg-[#eff2f5]">
             <HomeHero></HomeHero>
-            <Categories></Categories>
             <AddCard></AddCard>
+            <Categories></Categories>
             <OurTeam></OurTeam>
         </div>
     );
