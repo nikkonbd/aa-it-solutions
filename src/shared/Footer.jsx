@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex-wrap lg:grid  md:grid-col-4 lg:grid-cols-4 gap-6 justify-items-center">
             <div className="">
               <div>
-                <h2 className="text-3xl text-[#0dcaf0] font-semibold">AA IT SOLUSION</h2>
+                <h2 className="text-3xl text-[#0dcaf0] font-semibold">A A IT SOLUTION</h2>
               </div>
               <div>
                 <p className="my-3">
@@ -123,7 +123,7 @@ const Footer = () => {
       </div>
       <div className="p-4 bg-[#197685] bg-opacity-20 justify-center items-center md:flex md:justify-between md:items-end">
         <div className="md:text-start ms-10 md:ms-20">
-          <p>Copyright &copy; 2023 - AA IT SOLUSION</p>
+          <p>Copyright &copy; 2023 - A A IT SOLUTION</p>
         </div>
         <div className="md:me-20">
           <div className="flex gap-4 justify-center">
