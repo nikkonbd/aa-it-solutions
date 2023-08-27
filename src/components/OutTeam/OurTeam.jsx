@@ -22,13 +22,13 @@ const OurTeam = () => {
           </h1>
         </div>
       </div>
-      <div className="grid md:max-w-6xl lg:max-w-7xl mx-auto md:grid-cols-4 lg:grid-cols-4 gap-6 px-12">
+      <div className="grid md:max-w-6xl mx-auto md:grid-cols-4 lg:grid-cols-4 gap-6 px-12">
       <figure className="snip1205 shadow-md">
         <Card
-          className="w-full md:w-72 py-4"
+          className="w-full md:w-70 py-4"
           style={{
             backgroundImage:
-              "url(https://validthemes.net/site-template/diglu/assets/img/shape/11.png)",
+              "url(https://i.ibb.co/sQ2f2KZ/11.png)",
           }}
         >
           <CardHeader
@@ -48,7 +48,7 @@ const OurTeam = () => {
               <a href="#"></a>
           </CardHeader>
           <CardBody className="text-center">
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h5" color="blue-gray" className="mb-2 text-[#03112d]">
             Dhimanendu Sarkar
             </Typography>
             <Typography color="blue-gray" className="font-medium" textGradient>
@@ -59,10 +59,10 @@ const OurTeam = () => {
         </figure>
         <figure className="snip1205 shadow-md">
         <Card
-          className="w-full md:w-72 py-4"
+          className="w-full md:w-70 py-4"
           style={{
             backgroundImage:
-              "url(	https://validthemes.net/site-template/diglu/assets/img/shape/11.png)",
+              "url(https://i.ibb.co/sQ2f2KZ/11.png)",
           }}
         >
           <CardHeader
@@ -82,7 +82,7 @@ const OurTeam = () => {
               <a href="#"></a>
           </CardHeader>
           <CardBody className="text-center">
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h5" color="blue-gray" className="mb-2 text-[#03112d]">
               Dhritiman Sarker
             </Typography>
             <Typography color="blue-gray" className="font-medium" textGradient>
@@ -93,10 +93,10 @@ const OurTeam = () => {
         </figure>
         <figure className="snip1205 shadow-md">
           <Card
-            className="w-full md:w-72 py-4"
+            className="w-full md:w-70 py-4"
             style={{
               backgroundImage:
-                "url(	https://validthemes.net/site-template/diglu/assets/img/shape/11.png)",
+                "url(https://i.ibb.co/sQ2f2KZ/11.png)",
             }}
           >
             <CardHeader
@@ -118,7 +118,7 @@ const OurTeam = () => {
               
             </CardHeader>
             <CardBody className="text-center">
-              <Typography variant="h4" color="blue-gray" className="mb-2">
+              <Typography variant="h5" color="blue-gray" className="mb-2 text-[#03112d]">
                 Nikkon Mondal
               </Typography>
               <Typography
@@ -133,10 +133,10 @@ const OurTeam = () => {
         </figure>
         <figure className="snip1205 shadow-md">
           <Card
-            className="w-full md:w-72 py-4"
+            className="w-full md:w-70 py-4"
             style={{
               backgroundImage:
-                "url(	https://validthemes.net/site-template/diglu/assets/img/shape/11.png)",
+                "url(https://i.ibb.co/sQ2f2KZ/11.png)",
             }}
           >
             <CardHeader
@@ -156,7 +156,7 @@ const OurTeam = () => {
               <a href="#"></a>
             </CardHeader>
             <CardBody className="text-center">
-              <Typography variant="h4" color="blue-gray" className="mb-2">
+              <Typography variant="h5" color="blue-gray" className="text-[#03112d] mb-2">
               Shuvo Jit Kumar
               </Typography>
               <Typography
