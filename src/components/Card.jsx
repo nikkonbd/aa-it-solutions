@@ -5,12 +5,12 @@ import {HiCheck} from "react-icons/hi"
 
 const AddCard = () => {
     return (
-        <div className=''>
+        <div className='bg-[#f0f7ff]'>
             <div className='py-24'>
-                <p  className='text-center text-[#73d8ba]'>OUR SERVICE</p>
+                <p  className='text-center text-[#0dcaf0]'>OUR SERVICE</p>
                 <h2 className='text-5xl text-center font-bold'>Services to help your <br /> business drive success</h2>
             </div>
-            <div className='md:grid px-4 md:px-0 sm:grid-cols-2 md:grid-cols-3 gap-6 md:max-w-6xl lg:max-w-7xl mx-auto'>
+            <div className='md:grid px-4 md:pb-24 md:px-0 sm:grid-cols-2 md:grid-cols-3 gap-6 md:max-w-6xl lg:max-w-7xl mx-auto'>
                 <div className="card mb-6 md:mb-0 w-full bg-base-100">
                     <figure className="px-4 pt-3">
                         <img src="https://www.mytectra.com/hubfs/website/images/courses/it/category/600+360%20IT%20Courses%20(37).png" alt="Shoes" className="rounded-xl h-[200px]" />
